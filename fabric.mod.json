@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "inventoryfullalert",
+  "version": "1.0.0",
+  "name": "Inventory Full Alert",
+  "description": "Çantanın tamamen dolduğunda ses uyarısı verir.",
+  "authors": ["ChatGPT"],
+  "environment": "*",
+  "entrypoints": { "client": ["com.chatgpt.inventoryfullalert.InventoryFullAlertClient"] },
+  "depends": { "fabricloader": ">=0.14.21", "fabric": "*", "minecraft": "1.20.1" }
+}
