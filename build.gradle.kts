@@ -1,5 +1,6 @@
 plugins {
-    id("fabric-loom") version "1.2-SNAPSHOT"
+  id("fabric-loom") version "1.2-SNAPSHOT"
+id("java")
 }
 
 group = "com.chatgpt"
