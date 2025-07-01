@@ -13,9 +13,11 @@ minecraft {
     mappings("intermediary", "1.20.1")
     loader("0.14.21")
 }
+
 repositories {
     mavenCentral()
 }
+
 dependencies {
     minecraft("com.mojang:minecraft:1.20.1")
     modImplementation("net.fabricmc:fabric-loader:0.14.21")
